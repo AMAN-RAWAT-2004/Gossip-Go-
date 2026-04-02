@@ -89,7 +89,7 @@ const Sidebar = ({ isOpen, setIsSidebarOpen }) => {
             <div
               key={user._id}
               onClick={() => handleClick(user)}
-              className={`w-full flex items-center md:text-white px-3 py-2 border md:border-0 cursor-pointer hover:bg-gray-700 ${
+              className={`w-full flex items-center md:text-white px-3 py-2  cursor-pointer hover:bg-gray-700 ${
                 isActive ? "bg-gray-700" : ""
               }`}
             >
