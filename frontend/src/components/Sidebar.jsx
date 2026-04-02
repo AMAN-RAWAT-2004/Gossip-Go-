@@ -98,7 +98,7 @@ const Sidebar = ({ isOpen, setIsSidebarOpen }) => {
   src={user.avatar || "https://img.freepik.com/premium-vector/account-icon-user-icon-vector-graphics_292645-552.jpg?semt=ais_incoming&w=740&q=80"}
   alt={user.name}
   
-  className="w-14 h-14 rounded-full object-cover"
+  className="w-14 h-14 rounded-full border border-black object-cover"
 />
 
               {/* Info */}

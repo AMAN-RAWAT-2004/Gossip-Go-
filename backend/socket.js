@@ -74,7 +74,7 @@ const socketSetup = (server) => {
                 console.log("❌ Socket Error:", error.message);
             }
         });
-            // Typing indicator on 
+        // Typing indicator on 
         socket.on("typing", ({
             senderId,
             receiverId
@@ -86,7 +86,7 @@ const socketSetup = (server) => {
                 })
             }
         })
-            // Typing indicator off
+        // Typing indicator off
 
         socket.on("stopTyping", ({
             senderId,
